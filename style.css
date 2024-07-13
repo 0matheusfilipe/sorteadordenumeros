@@ -61,7 +61,6 @@ body::before {
 .container__texto-azul {
     color: #a51337;
     display: block;
-
 }
 
 .container__campo {
@@ -99,6 +98,11 @@ body::before {
     font-weight: 700;
     border: none;
     cursor: pointer;
+    transition: background 0.3s;
+}
+
+.container__botao:hover {
+    background: #d91a3f;
 }
 
 .container__botao-desabilitado {
@@ -148,6 +152,5 @@ button:disabled {
 
     h1 {
         font-size: 50px;
-
     }
 }
