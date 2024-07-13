@@ -58,7 +58,7 @@ body::before {
     flex-direction: column;
 }
 
-.container__texto-azul {
+.container__texto-vermelho {
     color: #a51337;
     display: block;
 }
